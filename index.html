@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+    <title>Belizean Recipes </title>
+</head>
+
+<body class="d-flex flex-column vh-100">
+    <div id="nav-back" class="sticky-top">
+        <nav class="navbar sticky-top navbar-expand-lg ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="general_pics/Flag_of_Belize.jpeg" id="navBar-flag"
+                        alt="" width="55" height="40" class="d-inline-block">Recipes of Belize</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/recipes" inactive></a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-primary" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <main>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="parallax col-md-6 col-lg-8">
+                    <div id="featured-card" class="card me-auto">
+                        <div class="card-body">
+                            <a href="recipes/escabeche.html">
+                                <h5 class="card-title">Escabeche</h5>
+                            </a>
+                            <p class="card-text">
+                                The almighty onion may be the hero of this dish, but there are many other ingredients
+                                that add to this burst of flavors...</p>
+                            <p class="card-text">Submitted by Charlie</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-list text-center col-md-6 col-lg-4">
+                    <h2 class="card-list-title">Additional Recipes</h2>
+                    <div class="additional-cards text-start col">
+                        <div class="card mb-3" style="width: 16rem; ">
+                            <img class="card-img-top card-img" src="food_pics/Relleno-Negro-744x418.jpeg"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="recipes/relleno.html">Black Relleno</a></h5>
+                                <p class="card-text">Affectionately and appropriately called "black dinna" (black
+                                    dinner),
+                                    this...
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card mb-3" style="width: 16rem;">
+                            <img class="card-img-top card-img" src="food_pics/pot-salad-bze.jpeg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="recipes/potato_salad.html">Potato Salad</a></h5>
+                                <p class="card-text">This dish may not be your conventional potato salad that you're
+                                    used
+                                    to...
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="additional-cards text-start col">
+                        <div class="card mb-3" style="width: 16rem;">
+                            <img class="card-img-top card-img" src="food_pics/Escabeche.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="recipes/escabeche.html">Escabeche</a></h5>
+                                <p class="card-text">The almighty onion may be the hero of this dish, but there are many
+                                    other
+                                    ingredients that add to this burst of flavors...
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card mb-3" style="width: 16rem;">
+                            <img class="card-img-top card-img" src="food_pics/rice_n_beans_pic.jpeg"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="recipes/rice_n_beans.html">Rice And beans</a></h5>
+                                <p class="card-text">Considered a side dish among many neighboring cultures, this staple
+                                    of
+                                    the
+                                    Belizean diet will amaze with its variety and preparation...
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer id="footer1" class="footer py-3 mt-auto fixed-bottom">
+        <footer class="footer py-3 mt-auto fixed-bottom">
+            <div class="container">
+                <span class="text-dark"> &copy; CMAP Recipes 2022</span>
+            </div>
+        </footer>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

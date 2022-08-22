@@ -1,0 +1,111 @@
+main {
+    padding-bottom: 70px;
+    background-color: rgb(251, 240, 188);
+    background-image: url('general_pics/cutting_board.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1,
+.navbar-brand {
+    color: #054189;
+}
+
+.nav-link {
+    color: #3E75B6;
+}
+
+#navBar-flag {
+    margin-right: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.navbar,
+.footer {
+    background-color: #fefcf6;
+}
+
+#nav-back {
+    background-color: white;
+    height: 66px;
+}
+
+#footer1 {
+    background-color: white;
+    height: 56px;
+}
+
+.navbar {
+    box-shadow: 0px 5px 5px gray;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card {
+    box-shadow: 0px 0px 10px rgb(80, 80, 80);
+    height: 100%;
+}
+
+.card-list-title {
+    color: #f8f3cb;
+    text-shadow: 0px 0px 1px gray;
+}
+
+#featured-card,
+.card {
+    color: #fefcf6;
+    background-color: #769fb674;
+}
+
+#featured-card {
+    height: 300px;
+    max-width: 500px;
+    padding: 50px;
+    /* opacity: 80%; */
+    margin-top: 342px;
+    position: sticky;
+    top: 67px;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("food_pics/Escabeche.jpg");
+
+    /* Set a specific height */
+    min-height: 814px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.card-img {
+    height: 170px;
+}
+
+.additional-cards {
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    gap: 20px;
+}
+
+p.card-text {
+    text-overflow: ellipsis;
+}
+
+.food-img {
+    height: 500px;
+    width: 600px;
+}
